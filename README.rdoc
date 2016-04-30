@@ -1,3 +1,27 @@
 # TokenizrRails
 
-Implementation of [Tokenizr](https://github.com/arktisklada/rails) as an ActiveRecord function
+Implementation of [Tokenizr](https://github.com/arktisklada/tokenizr) as an ActiveRecord function
+
+By default, uses the `id` column for any object.  To add to a model, call `tokenize` as a class method.
+
+For example:
+
+```
+class User < ActiveRecord::Base
+  tokenize
+end
+```
+
+The class will respond to `find_by_token` and supplement the default `ActiveRecord#find` method to allow
+for decoding and finding by a token.
+
+---
+
+## Contributing
+
+1. Create an issue
+2. Fork it ( https://github.com/arktisklada/tokenizr/fork )
+3. Create your feature branch (`git checkout -b my-new-feature`)
+4. Commit your changes (`git commit -am 'Add some feature'`)
+5. Push to the branch (`git push origin my-new-feature`)
+6. Create a new Pull Request
