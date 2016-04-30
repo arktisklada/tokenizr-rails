@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    tokenizr_rails (0.7.0)
+    tokenizr-rails (0.7.0)
       activerecord (>= 3.0, < 5.0)
       tokenizr (~> 1.0.0)
 
@@ -41,7 +41,7 @@ DEPENDENCIES
   minitest
   rake
   sqlite3
-  tokenizr_rails!
+  tokenizr-rails!
 
 BUNDLED WITH
    1.10.6

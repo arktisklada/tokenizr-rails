@@ -1,5 +1,5 @@
 require "test_helper.rb"
-require "tokenizr_rails/finders"
+require "tokenizr-rails/finders"
 
 class FinderTest  < ActiveSupport::TestCase
   test "finds by the id" do

@@ -1,6 +1,6 @@
 require "minitest/autorun"
 require "tokenizr"
-require "tokenizr_rails"
+require "tokenizr-rails"
 
 Dir[File.dirname(__FILE__) + "/models/*.rb"].each { |file| require file }
 
