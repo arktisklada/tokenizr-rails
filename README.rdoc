@@ -1,3 +1,3 @@
-= TokenizrRails
+# TokenizrRails
 
-This project rocks and uses MIT-LICENSE.
+Implementation of [Tokenizr](https://github.com/arktisklada/rails) as an ActiveRecord function
