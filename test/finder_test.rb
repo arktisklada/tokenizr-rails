@@ -1,7 +1,10 @@
-require "test_helper.rb"
-require "tokenizr-rails/finders"
+require "test_helper"
 
 class FinderTest  < ActiveSupport::TestCase
+  teardown do
+    TestModel.destroy_all
+  end
+
   test "finds by the id" do
     model = TestModel.create!
 

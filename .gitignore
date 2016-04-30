@@ -4,3 +4,5 @@ pkg/
 builds
 .ruby-version
 .ruby-gemset
+*.gem
+tmp
