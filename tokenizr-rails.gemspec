@@ -10,8 +10,7 @@ Gem::Specification.new do |s|
   s.authors     = ["arktisklada"]
   s.email       = ["mail@enorganik.com"]
   s.homepage    = "https://github.com/arktisklada/tokenizr-rails"
-  s.summary     = "TODO: Summary of TokenizrRails."
-  s.description = "TODO: Description of TokenizrRails."
+  s.summary     = "Adds token-based finders to ActiveRecord"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
