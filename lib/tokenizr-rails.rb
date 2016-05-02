@@ -1,3 +1,4 @@
+require "tokenizr"
 require "active_record"
 require "tokenizr-rails/finders"
 

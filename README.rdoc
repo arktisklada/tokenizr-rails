@@ -15,6 +15,12 @@ end
 The class will respond to `find_by_token` and supplement the default `ActiveRecord#find` method to allow
 for decoding and finding by a token.
 
+To find a model's token, query the object using `#token`
+
+```
+User.first.token
+```
+
 ---
 
 ## Contributing
