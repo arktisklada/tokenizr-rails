@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    tokenizr-rails (0.7.3)
+    tokenizr-rails (0.7.4)
       activerecord (>= 3.0, < 5.0)
       tokenizr (~> 1.0, >= 1.0.0)
 

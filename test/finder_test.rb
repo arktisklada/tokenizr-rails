@@ -5,6 +5,13 @@ class FinderTest  < ActiveSupport::TestCase
     TestModel.destroy_all
   end
 
+  test "using find_by_token" do
+    model = TestModel.create!
+    token = Tokenizr.encode(model.id)
+
+    assert_equal TestModel.find_by_token(token), model
+  end
+
   test "finds by the id" do
     model = TestModel.create!
 
@@ -16,6 +23,6 @@ class FinderTest  < ActiveSupport::TestCase
     model = TestModel.create!
     token = Tokenizr.encode(model.id)
 
-    assert_equal TestModel.find_by_token(token), model
+    assert_equal TestModel.find(token), model
   end
 end
